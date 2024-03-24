@@ -6,9 +6,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     int days = 10;
-    String name = 'tarun';
-    bool isReady = true;
-    var bawa = "11111";
+    String name = 'Tarun sir';
 
     return Scaffold(
       appBar: AppBar(
@@ -16,8 +14,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text(
-              "Welcome to my $days Days flutter $name wo ready he $isReady $bawa"),
+          child: Text("Welcome to my $days Days flutter program with $name"),
         ),
       ),
       drawer: Drawer(),
